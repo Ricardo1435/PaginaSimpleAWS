@@ -1,0 +1,60 @@
+hr {
+  padding: 10px;
+}
+
+#nosotros p {
+  text-align: justify;
+}
+
+#galeria p {
+  text-align: justify;
+}
+
+#info p {
+  text-align: justify;
+}
+
+.container img {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.container iframe {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+#copyRight {
+  text-align: center;
+  background-color: black;
+  color: cornsilk;
+  padding: 15px;
+  font-family: verdana;
+  font-size: 15px;
+  border: 10px outset;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 990px) {
+  .container iframe {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  #contenedor {
+    display: none;
+  }
+}
